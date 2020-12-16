@@ -1,0 +1,19 @@
+---------------------------------------------------------------
+-- Default workspace (Current dir)
+---------------------------------------------------------------
+WORK > DEFAULT
+
+---------------------------------------------------------------
+-- User-defined Libraries
+---------------------------------------------------------------
+-- All generic IP files are compiled into IP lib.
+IP : ./ip_work
+
+-- All top level sources are compiled into SYSTEM lib.
+SYSTEM : ./system_work
+
+-- All implementation / foundry specific sources (often proprietary) are compiled into IMPL lib.
+FOUNDRY : ./foundry_work
+
+-- All DV sources are compiled into DV lib.
+DV : ./dv_work
