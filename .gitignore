@@ -1,0 +1,16 @@
+*.log
+vdCovLog*
+*.history
+irun.key
+*.svcf
+*.fsdb
+*.rc
+scratch*
+ucli.key
+novas*
+verdi*
+*_work*
+simv
+csrc
+*.d
+
